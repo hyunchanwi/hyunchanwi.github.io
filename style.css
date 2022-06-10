@@ -1,0 +1,92 @@
+.list {
+    list-style: none;
+    display: flex;
+
+
+}
+
+.list>li {
+    margin-left: 70px;
+
+}
+
+.header {
+    margin: auto;
+    background-color: rgb(187, 180, 240);
+    display: flex;
+    margin-left: -5px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+/*
+.goup {
+    background-color: red;
+    background
+}
+*/
+
+
+
+.floating {
+    background-color: skyblue;
+    border: 2px solid #transparent;
+    position: fixed;
+    right: 50%;
+    top: 180px;
+    margin-right: -515px;
+    text-align: center;
+    width: 90px;
+    height: 170px;
+    border-radius: 10px;
+   
+
+
+}
+
+.floating div:nth-child(1) {
+    border: 2px solid none;
+    border-radius: 0px;
+}
+
+.floating div:nth-child(2) {
+    border: 2px solid none;
+    border-radius: 0px;
+}
+
+.floating div:nth-child(3) {
+    border: 2px solid none;
+    border-radius: 0px;
+}
+
+.floating div:nth-child(4) {
+    border: 2px solid none;
+    border-radius: 0px;
+}
+
+.floating div:nth-child(5) {
+    border: 2px solid none;
+    border-radius: 0px;
+}
+
+.floating {
+    list-style: none;
+    border-radius
+
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.fontcolor {
+    color: white;
+}
+.bigdata{
+    margin-left: 0px;
+    margin-top: 0px;
+}
