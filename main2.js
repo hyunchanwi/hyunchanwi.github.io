@@ -10,3 +10,5 @@ window.onload = function () {
     //     alert('버튼 되게 신기하지? 이거하는데 1시간 동안 했어..');
     // })
 }
+
+
