@@ -34,7 +34,7 @@ html {
 
 .floating {
     background-color: aqua;
-    border: 3px solid #000;
+    border: 1px solid rgb(246, 188, 255);
     position: fixed;
     right: 50%;
     top: 190px;
@@ -42,9 +42,24 @@ html {
     text-align: center;
     width: 80px;
     border-radius: 16px;
+    
 
 
 
+}
+.floating {
+  /* margin: 0 auto; */
+  /* padding: 80px;
+  width: 600px; */
+  background: linear-gradient( #5433ff, #20bdff, #a5fecb);
+  /* 90deg, linear , radial*/
+
+}
+.text {
+  margin: 0;
+  text-align: center;
+  /* font-size: 80px; */
+  color: #ffffff;
 }
 
 /*
@@ -75,7 +90,7 @@ html {
 */
 
 body {
-    background: #e0e5ec;
+    background: #d0e2f1;
   }
 
 
@@ -172,3 +187,5 @@ h1.title {
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
   }
+
+ 
