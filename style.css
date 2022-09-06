@@ -1,25 +1,25 @@
 .list {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 
 
 }
 
 .list>li {
-    margin-left: 70px;
+  margin-left: 70px;
 
 }
 
 .header {
-    margin-right: 0px;
-    background-color: rgb(187, 180, 240);
-    display: flex;
-    margin-left: -10px;
-width:1427px;
+  margin-right: 0px;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  margin-left: -10px;
+  width: 1427px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 
 }
 
@@ -33,28 +33,30 @@ html {
 
 
 .floating {
-    background-color: aqua;
-    border: 1px solid rgb(246, 188, 255);
-    position: fixed;
-    right: 50%;
-    top: 190px;
-    margin-right: -515px;
-    text-align: center;
-    width: 80px;
-    border-radius: 16px;
-    
+  background-color: aqua;
+  border: 1px solid rgb(246, 188, 255);
+  position: fixed;
+  right: 50%;
+  top: 190px;
+  margin-right: -515px;
+  text-align: center;
+  width: 80px;
+  border-radius: 16px;
+
 
 
 
 }
+
 .floating {
   /* margin: 0 auto; */
   /* padding: 80px;
   width: 600px; */
-  background: linear-gradient( #5433ff, #20bdff, #a5fecb);
+  background: radial-gradient(#2d2d2d, #444a4d, #a5f0ff);
   /* 90deg, linear , radial*/
 
 }
+
 .text {
   margin: 0;
   text-align: center;
@@ -90,102 +92,104 @@ html {
 */
 
 body {
-    background: #d0e2f1;
-  }
+  background: #e1e1e1;
+}
 
 
 .floating {
-    list-style: none;
+  list-style: none;
 
 }
 
 a {
-    text-decoration-line: none;
+  text-decoration-line: none;
 
 }
 
 .fontcolor {
-    color: white;
+  color: white;
 }
 
 .title {
-    width: 1427px;
-    height: 50px;
-    background-image: url('image/dronecapture.png')
-
-    
+  width: 1427px;
+  height: 50px;
+  background-image: url('image/dronecapture.png')
 }
 
 h1.title {
-    text-shadow: 1px 1px 2px #ffffff;
-    color: white;
-    padding-top: 20px;
-    text-align: center;
-    padding-right: 0%;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -20px;
-    margin-bottom: 0%;
+  text-shadow: 1px 1px 2px #ffffff;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 0%;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -20px;
+  margin-bottom: 0%;
 }
 
 .btn-16 {
-    border: none;
-    color: #000;
-  }
-  .btn-16:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
-    direction: rtl;
-    z-index: -1;
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    transition: all 0.3s ease;
-  }
-  .btn-16:hover {
-    color: #000;
-  }
-  .btn-16:hover:after {
-    left: auto;
-    right: 0;
-    width: 100%;
-  }
-  .btn-16:active {
-    top: 2px;
-  }
-  .frame {
-    width: 90%;
-    margin: 40px auto;
-    /* text-align: left; */
-  }
-  button {
-    margin: 20px;
-  }
-  
-  
-  .custom-btn {
-    width: 130px;
-    height: 40px;
-    color: none;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-  }
+  border: none;
+  color: #000;
+}
 
- 
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+.btn-16:hover {
+  color: #000;
+}
+
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+.btn-16:active {
+  top: 2px;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  /* text-align: left; */
+}
+
+button {
+  margin: 20px;
+}
+
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
