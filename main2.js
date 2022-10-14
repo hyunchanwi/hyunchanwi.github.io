@@ -12,3 +12,4 @@ window.onload = function () {
 }
 
 
+// external js: flickity.pkgd.js
